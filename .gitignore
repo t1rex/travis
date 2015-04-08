@@ -1,0 +1,53 @@
+# Globally excluded folders
+node_modules/
+.idea/
+.sass-cache/
+
+#Globally excluded files
+.DS_Store
+npm-debug.log
+*.gz
+*.swp
+*.tar
+*.tar.gz
+
+# Partly excluded folders
+/downloader/pearlib/pear.ini
+/downloader/pearlib/cache/*
+/downloader/cache.cfg
+/downloader/connect.cfg
+/downloader/.cache/*
+/error/.no_delete
+/includes/*
+!/includes/config.php
+!/includes/.htaccess
+/media/captcha/*
+/media/catalog/product/cache/*
+/media/css/*
+/media/css_secure/*
+/media/import/*
+/media/js/*
+/media/js_secure/*
+/media/tmp/*
+/media/wysiwyg/.thumbs/*
+/stats/*
+!/stats/.htaccess
+/var/backups/*
+/var/cache/*
+/var/cert/*
+/var/full_page_cache/*
+/var/importexport/*
+/var/locks/*
+/var/log/*
+/var/minifycache/*
+/var/package/tmp/*
+/var/report/*
+/var/session/*
+/var/tmp/*
+/webalizer/*
+!/webalizer/.htaccess
+
+# Particular files to be excluded
+# /app/etc/local.xml
+/sitemap.xml
+/var/resource_config.json
