@@ -4,16 +4,9 @@ php:
     - 5.5
     - 5.4
     - hhvm
-install:
-    - composer install
-#script: ./bin/phing -verbose -propertyfile build/travis.properties build-travis
-script: phpunit -c build/
 cache:
     directories:
-        - bin/
-        - build/cache/
-        - build/magento/
-        - vendor/
+       -var/cache
 matrix:
     fast_finish: true
     allow_failures:
